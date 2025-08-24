@@ -2,13 +2,9 @@ name: Test Windows Compatibility
 
 on:
   push:
-    branches:
-      - main
     paths:
       - 'cli/**'
   pull_request:
-    branches:
-      - main
     paths:
       - 'cli/**'
 
