@@ -43,7 +43,7 @@ jobs:
 
           # Test the build command with debug output
           Write-Host "=== Running CLI build command ==="
-          $result = & ../../cli/dist/index.js build --debug 2>&1
+          $result = & ..\..\cli\dist\index.js build --debug 2>&1
           $exitCode = $LASTEXITCODE
           Write-Host "CLI exit code: $exitCode"
           Write-Host "CLI output:"
